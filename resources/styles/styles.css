@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#name-jumbotron {
+    background-color: black;
+    text-align: left;
+    padding-top: 20em;
+}
+
+#name {
+    color: white;
+    font-size: 150%;
+    letter-spacing: .5em;
+}
+
+hr {
+    background-color: white;
+}
+
+#job-title {
+    color: grey;
+    text-align: center;
+}
+
+.typed {
+    color: white;
+}
+
+#about {
+    text-align: center;
+}
