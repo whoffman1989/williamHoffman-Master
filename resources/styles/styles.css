@@ -1,3 +1,5 @@
+/* Main Page Styling */
+
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -26,8 +28,45 @@ hr {
 
 .typed {
     color: white;
+    letter-spacing: .3rem;
 }
 
 #about {
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    letter-spacing: .3rem;
+}
+
+a:hover {
+    color: grey;
+}
+
+.social-media-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-list li {
+    display: inline-block;
+}
+
+.social-links {
+    color: white;
+    padding: .5rem;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
     text-align: center;
 }
