@@ -1,72 +1,72 @@
 /* Main Page Styling */
 
 body {
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 #name-jumbotron {
-    background-color: black;
-    text-align: left;
-    padding-top: 20em;
+  background-color: black;
+  text-align: left;
+  padding-top: 20em;
 }
 
 #name {
-    color: white;
-    font-size: 150%;
-    letter-spacing: .5em;
+  color: white;
+  font-size: 150%;
+  letter-spacing: 0.5em;
 }
 
 hr {
-    background-color: white;
+  background-color: white;
 }
 
 #job-title {
-    color: grey;
-    text-align: center;
+  color: grey;
+  text-align: center;
 }
 
 .typed {
-    color: white;
-    letter-spacing: .3rem;
+  color: white;
+  letter-spacing: 0.3rem;
 }
 
 #about {
-    text-align: left;
+  text-align: left;
 }
 
 a {
-    color: white;
-    text-decoration: underline;
-    letter-spacing: .3rem;
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 0.3rem;
 }
 
 a:hover {
-    color: grey;
-}
-
-.social-media-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.social-media-list li {
-    display: inline-block;
-}
-
-.social-links {
-    color: white;
-    padding: .5rem;
+  color: grey;
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
+  background-color: black;
+  position: fixed;
+  padding: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+.social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-media-list li {
+  display: inline-block;
+}
+
+.social-links {
+  color: white;
+  padding: 0.5rem;
 }
